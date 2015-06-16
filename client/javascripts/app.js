@@ -7,8 +7,9 @@ var main = function () {
 			alert("Enter a valid input");
 			$("#filtertext").val('');
 		}
-
-		userText($("#filtertext").val())
+		else{
+			userText($("#filtertext").val())
+		}
 
 	});
 
