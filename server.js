@@ -12,4 +12,8 @@ app.get('/404', function (req, res) {
 	res.end('404 Error oh no!\n');
 })
 
+app.get('/about', function (req, res) {
+	res.redirect("/about.html");
+})
+
 console.log('Sever is running at frankie7413.me');
