@@ -3,7 +3,7 @@ var main = function () {
 	var $result;
 
 	$("#filter").click(function() {
-		if($("#filtertext").val() === "Type here" || $("#filtertext").val() === ""){
+		if($("#filtertext").val() === ""){
 			alert("Enter a valid input");
 			$("#filtertext").val('');
 		}
